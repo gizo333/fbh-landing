@@ -593,7 +593,7 @@
       font-size: 20px; } }
   @media screen and (max-width: 415px) {
     .hello-block-btn .btn-download {
-      font-size: 20px; } }
+      font-size: 18px; } }
   .hello-block-btn .btn-download:hover {
     background-color: #0085ff;
     border-color: #888; }
@@ -616,7 +616,8 @@
         font-size: 20px; } }
     @media screen and (max-width: 415px) {
       .hello-block-btn .btn .inbox-text {
-        font-size: 20px; } }
+        font-size: 18px;
+        margin-right: 35px; } }
     @media screen and (max-width: 320px) {
       .hello-block-btn .btn .inbox-text {
         font-size: 18px; } }
