@@ -296,7 +296,8 @@
 
   @media screen and (max-width: 375px) {
     .head-menu-ul {
-      padding-bottom: 50px;
+      padding-bottom: 35px;
+      padding-left: 75px;
     }
     .head-menu-li {
       margin-left: -13px;
@@ -1019,6 +1020,7 @@
 @media screen and (max-width: 415px) {
   .hello-block-btn {
     gap: 50px;
+    width: 380px;
   }
 }
 
