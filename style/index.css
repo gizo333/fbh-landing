@@ -193,7 +193,7 @@
     white-space: nowrap; } }
 @media screen and (max-width: 375px) {
   .head-menu .head-menu-ul {
-    padding-top: 25px; }
+    padding-bottom: 50px; }
   .head-menu .head-menu-li {
     margin-left: -13px;
     font-weight: 500;
@@ -212,7 +212,7 @@
 @media screen and (max-width: 320px) {
   .head-menu .head-menu-ul {
     padding-left: 60px;
-    margin-top: -35px; }
+    padding-bottom: 100px; }
   .head-menu .head-menu-li {
     font-weight: 500;
     font-size: 18px;
