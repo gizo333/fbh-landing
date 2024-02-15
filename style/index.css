@@ -627,9 +627,6 @@
   @media screen and (max-width: 415px) {
     .hello-block-btn .btn {
       margin-right: 22px; } }
-  @media screen and (max-width: 320px) {
-    .hello-block-btn .btn {
-      margin-right: 60px; } }
 
 @media screen and (max-width: 1050px) {
   .hello-block-btn {
@@ -651,7 +648,8 @@
     gap: 40px; } }
 @media screen and (max-width: 320px) {
   .hello-block-btn {
-    gap: 10px; } }
+    gap: 10px;
+    width: 20px; } }
 footer {
   display: flex;
   align-items: center;
