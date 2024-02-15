@@ -21,6 +21,12 @@
       }
     }
 
+    @media screen and (max-width: 540px) {
+      .head-logo {
+        display: none;
+      }
+    }
+
     @media screen and (max-width: 430px) {
       .head-logo {
         display: none;
@@ -47,6 +53,15 @@
       font-size: 30px;
       text-transform: uppercase;
       line-height: 200px;
+    }
+
+    @media screen and (max-width: 540px) {
+      .block-main-abilities {
+        font-size: 25px;
+        font-weight: 800;
+        line-height: 120px;
+        white-space: nowrap;
+      }
     }
 
     @media screen and (max-width: 430px) {
@@ -146,6 +161,13 @@
         }
       }
 
+      @media screen and (max-width: 540px) {
+        .block-main-text {
+          font-size: 24px;
+          line-height: 24px;
+        }
+      }
+
       @media screen and (max-width: 430px) {
         .block-main-text {
           font-size: 20px;
@@ -211,6 +233,20 @@
       margin-right: 45px;
       font-weight: 500;
       font-size: 25px;
+      line-height: 13%;
+      white-space: nowrap;
+    }
+  }
+
+  @media screen and (max-width: 540px) {
+    .head-menu-ul {
+      padding-left: 100px;
+      margin-bottom: 55px;
+    }
+    .head-menu-li {
+      margin-right: 45px;
+      font-weight: 500;
+      font-size: 28px;
       line-height: 13%;
       white-space: nowrap;
     }
@@ -425,6 +461,16 @@
         }
       }
 
+      @media screen and (max-width: 540px) {
+        .download-info-text-h {
+          font-size: 28px;
+        }
+
+        .download-info-text-p {
+          font-size: 20px;
+        }
+      }
+
       @media screen and (max-width: 430px) {
         .download-info-text-h {
           font-size: 24px;
@@ -601,6 +647,14 @@
     }
   }
 
+  @media screen and (max-width: 540px) {
+    .imageses-head-svg {
+      position: absolute;
+      width: 98%;
+      height: 20vh;
+    }
+  }
+
   @media screen and (max-width: 430px) {
     .imageses-head-svg {
       position: absolute;
@@ -714,6 +768,12 @@
     }
   }
 
+  @media screen and (max-width: 540px) {
+    .hello-block-container {
+      width: 90%;
+    }
+  }
+
   @media screen and (max-width: 430px) {
     .hello-block-container {
       width: 90%;
@@ -732,6 +792,12 @@
   }
 
   // media for mobil-img
+  @media screen and (max-width: 540px) {
+    .mobile-img {
+      display: none;
+    }
+  }
+
   @media screen and (max-width: 430px) {
     .mobile-img {
       display: none;
@@ -859,6 +925,13 @@
     .btn {
       margin-right: 22px;
     }
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .hello-block-btn {
+    width: 90%;
+    gap: 50px;
   }
 }
 

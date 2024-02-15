@@ -14,6 +14,9 @@
       .body-head .head-main .head-logo .logo {
         width: 150px;
         height: 54px; }
+    @media screen and (max-width: 540px) {
+      .body-head .head-main .head-logo {
+        display: none; } }
     @media screen and (max-width: 430px) {
       .body-head .head-main .head-logo {
         display: none; } }
@@ -31,6 +34,12 @@
       font-size: 30px;
       text-transform: uppercase;
       line-height: 200px; }
+    @media screen and (max-width: 540px) {
+      .body-head .block-main .block-main-abilities {
+        font-size: 25px;
+        font-weight: 800;
+        line-height: 120px;
+        white-space: nowrap; } }
     @media screen and (max-width: 430px) {
       .body-head .block-main .block-main-abilities {
         font-size: 20px;
@@ -101,6 +110,10 @@
         .body-head .block-main .block-main-text-container .block-main-text {
           font-size: 17px;
           line-height: 25px; } }
+      @media screen and (max-width: 540px) {
+        .body-head .block-main .block-main-text-container .block-main-text {
+          font-size: 24px;
+          line-height: 24px; } }
       @media screen and (max-width: 430px) {
         .body-head .block-main .block-main-text-container .block-main-text {
           font-size: 20px;
@@ -140,6 +153,16 @@
     margin-right: 45px;
     font-weight: 500;
     font-size: 25px;
+    line-height: 13%;
+    white-space: nowrap; } }
+@media screen and (max-width: 540px) {
+  .head-menu .head-menu-ul {
+    padding-left: 100px;
+    margin-bottom: 55px; }
+  .head-menu .head-menu-li {
+    margin-right: 45px;
+    font-weight: 500;
+    font-size: 28px;
     line-height: 13%;
     white-space: nowrap; } }
 @media screen and (max-width: 430px) {
@@ -280,6 +303,11 @@
         font-size: 20px; }
       .download-info .download-info-container .download-info-text-container .download-info-text-p {
         font-size: 16px; } }
+    @media screen and (max-width: 540px) {
+      .download-info .download-info-container .download-info-text-container .download-info-text-h {
+        font-size: 28px; }
+      .download-info .download-info-container .download-info-text-container .download-info-text-p {
+        font-size: 20px; } }
     @media screen and (max-width: 430px) {
       .download-info .download-info-container .download-info-text-container .download-info-text-h {
         font-size: 24px; }
@@ -385,6 +413,11 @@
     position: absolute;
     width: 50%;
     height: 95vh; } }
+@media screen and (max-width: 540px) {
+  .images-head .imageses-head-svg {
+    position: absolute;
+    width: 98%;
+    height: 20vh; } }
 @media screen and (max-width: 430px) {
   .images-head .imageses-head-svg {
     position: absolute;
@@ -457,6 +490,9 @@
         margin-top: 0; }
       .hello-block .hello-block-container .hello-span {
         font-size: 25px; } }
+  @media screen and (max-width: 540px) {
+    .hello-block .hello-block-container {
+      width: 90%; } }
   @media screen and (max-width: 430px) {
     .hello-block .hello-block-container {
       width: 90%; } }
@@ -466,6 +502,9 @@
   .hello-block .mobile-img {
     height: 550px;
     z-index: 1000; }
+  @media screen and (max-width: 540px) {
+    .hello-block .mobile-img {
+      display: none; } }
   @media screen and (max-width: 430px) {
     .hello-block .mobile-img {
       display: none; } }
@@ -547,6 +586,10 @@
     .hello-block-btn .btn {
       margin-right: 22px; } }
 
+@media screen and (max-width: 540px) {
+  .hello-block-btn {
+    width: 90%;
+    gap: 50px; } }
 @media screen and (max-width: 430px) {
   .hello-block-btn {
     gap: 50px; } }
