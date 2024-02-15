@@ -184,7 +184,7 @@
     white-space: nowrap; } }
 @media screen and (max-width: 415px) {
   .head-menu .head-menu-ul {
-    padding-left: 55px;
+    padding-left: 30px;
     padding-top: 50px; }
   .head-menu .head-menu-li {
     margin-right: 45px;
