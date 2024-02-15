@@ -996,6 +996,12 @@
       margin-right: 22px;
     }
   }
+
+  @media screen and (max-width: 320px) {
+    .btn {
+      margin-right: 60px;
+    }
+  }
 }
 
 @media screen and (max-width: 1050px) {
