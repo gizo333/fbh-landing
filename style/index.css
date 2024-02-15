@@ -185,7 +185,7 @@
 @media screen and (max-width: 415px) {
   .head-menu .head-menu-ul {
     padding-left: 30px;
-    padding-top: 50px; }
+    padding-top: 25px; }
   .head-menu .head-menu-li {
     margin-right: 45px;
     font-weight: 500;
@@ -654,7 +654,7 @@ footer {
   height: 900px;
   background-color: #071a33; }
   footer .footer-contact {
-    height: 400px;
+    height: 250px;
     display: flex;
     justify-content: space-between; }
     footer .footer-contact .logo-footer {
@@ -680,9 +680,12 @@ footer {
     width: 90vw; }
     footer .footer-text .footer-text-p {
       color: #7b7b7b;
-      line-height: 30px;
+      line-height: 15px;
       text-align: center;
-      font-size: 1.2vw; }
+      font-size: 15px; }
+    @media screen and (max-width: 320px) {
+      footer .footer-text .footer-text-p {
+        font-size: 11px; } }
 
 .document-info {
   display: flex;
