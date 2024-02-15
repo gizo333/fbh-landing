@@ -761,6 +761,18 @@
     transition: background-color 0.3s, border-color 0.3s;
   }
 
+  @media screen and (max-width: 430px) {
+    .btn-download {
+      font-size: 20px;
+    }
+  }
+
+  @media screen and (max-width: 415px) {
+    .btn-download {
+      font-size: 20px;
+    }
+  }
+
   .btn-download:hover {
     background-color: rgb(0, 133, 255);
     border-color: #888;
@@ -782,6 +794,18 @@
       font-weight: 600;
       font-size: 24px;
       border-bottom: 1px solid rgb(0, 133, 255);
+    }
+
+    @media screen and (max-width: 430px) {
+      .inbox-text {
+        font-size: 20px;
+      }
+    }
+
+    @media screen and (max-width: 415px) {
+      .inbox-text {
+        font-size: 20px;
+      }
     }
   }
 
