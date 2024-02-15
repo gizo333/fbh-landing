@@ -51,7 +51,7 @@
 
     @media screen and (max-width: 430px) {
       .block-main-abilities {
-        font-size: 16px;
+        font-size: 20px;
         font-weight: 800;
         line-height: 120px;
         white-space: nowrap;
@@ -60,7 +60,7 @@
 
     @media screen and (max-width: 415px) {
       .block-main-abilities {
-        font-size: 16px;
+        font-size: 19px;
         font-weight: 800;
         line-height: 120px;
         white-space: nowrap;
@@ -69,7 +69,7 @@
 
     @media screen and (max-width: 375px) {
       .block-main-abilities {
-        font-size: 15px;
+        font-size: 18px;
         font-weight: 800;
         line-height: 120px;
         white-space: nowrap;
@@ -146,9 +146,23 @@
         }
       }
 
+      @media screen and (max-width: 430px) {
+        .block-main-text {
+          font-size: 20px;
+          line-height: 22px;
+        }
+      }
+
       @media screen and (max-width: 415px) {
         .block-main-text {
-          font-size: 16px;
+          font-size: 20px;
+          line-height: 22px;
+        }
+      }
+
+      @media screen and (max-width: 375px) {
+        .block-main-text {
+          font-size: 18px;
           line-height: 22px;
         }
       }
@@ -411,13 +425,33 @@
         }
       }
 
-      @media screen and (max-width: 375px) {
+      @media screen and (max-width: 430px) {
         .download-info-text-h {
-          font-size: 18px;
+          font-size: 24px;
         }
 
         .download-info-text-p {
-          font-size: 15px;
+          font-size: 19px;
+        }
+      }
+
+      @media screen and (max-width: 415px) {
+        .download-info-text-h {
+          font-size: 24px;
+        }
+
+        .download-info-text-p {
+          font-size: 18px;
+        }
+      }
+
+      @media screen and (max-width: 375px) {
+        .download-info-text-h {
+          font-size: 22px;
+        }
+
+        .download-info-text-p {
+          font-size: 17px;
         }
       }
 
@@ -807,6 +841,12 @@
         font-size: 20px;
       }
     }
+
+    @media screen and (max-width: 320px) {
+      .inbox-text {
+        font-size: 18px;
+      }
+    }
   }
 
   @media screen and (max-width: 430px) {
@@ -842,7 +882,7 @@
 
 @media screen and (max-width: 320px) {
   .hello-block-btn {
-    gap: 15px;
+    gap: 10px;
   }
 }
 

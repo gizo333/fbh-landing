@@ -33,19 +33,19 @@
       line-height: 200px; }
     @media screen and (max-width: 430px) {
       .body-head .block-main .block-main-abilities {
-        font-size: 16px;
+        font-size: 20px;
         font-weight: 800;
         line-height: 120px;
         white-space: nowrap; } }
     @media screen and (max-width: 415px) {
       .body-head .block-main .block-main-abilities {
-        font-size: 16px;
+        font-size: 19px;
         font-weight: 800;
         line-height: 120px;
         white-space: nowrap; } }
     @media screen and (max-width: 375px) {
       .body-head .block-main .block-main-abilities {
-        font-size: 15px;
+        font-size: 18px;
         font-weight: 800;
         line-height: 120px;
         white-space: nowrap; } }
@@ -101,9 +101,17 @@
         .body-head .block-main .block-main-text-container .block-main-text {
           font-size: 17px;
           line-height: 25px; } }
+      @media screen and (max-width: 430px) {
+        .body-head .block-main .block-main-text-container .block-main-text {
+          font-size: 20px;
+          line-height: 22px; } }
       @media screen and (max-width: 415px) {
         .body-head .block-main .block-main-text-container .block-main-text {
-          font-size: 16px;
+          font-size: 20px;
+          line-height: 22px; } }
+      @media screen and (max-width: 375px) {
+        .body-head .block-main .block-main-text-container .block-main-text {
+          font-size: 18px;
           line-height: 22px; } }
       @media screen and (max-width: 320px) {
         .body-head .block-main .block-main-text-container .block-main-text {
@@ -272,11 +280,21 @@
         font-size: 20px; }
       .download-info .download-info-container .download-info-text-container .download-info-text-p {
         font-size: 16px; } }
+    @media screen and (max-width: 430px) {
+      .download-info .download-info-container .download-info-text-container .download-info-text-h {
+        font-size: 24px; }
+      .download-info .download-info-container .download-info-text-container .download-info-text-p {
+        font-size: 19px; } }
+    @media screen and (max-width: 415px) {
+      .download-info .download-info-container .download-info-text-container .download-info-text-h {
+        font-size: 24px; }
+      .download-info .download-info-container .download-info-text-container .download-info-text-p {
+        font-size: 18px; } }
     @media screen and (max-width: 375px) {
       .download-info .download-info-container .download-info-text-container .download-info-text-h {
-        font-size: 18px; }
+        font-size: 22px; }
       .download-info .download-info-container .download-info-text-container .download-info-text-p {
-        font-size: 15px; } }
+        font-size: 17px; } }
     @media screen and (max-width: 320px) {
       .download-info .download-info-container .download-info-text-container .download-info-text-h {
         font-size: 16px; }
@@ -519,6 +537,9 @@
     @media screen and (max-width: 415px) {
       .hello-block-btn .btn .inbox-text {
         font-size: 20px; } }
+    @media screen and (max-width: 320px) {
+      .hello-block-btn .btn .inbox-text {
+        font-size: 18px; } }
   @media screen and (max-width: 430px) {
     .hello-block-btn .btn {
       margin-right: 22px; } }
@@ -537,7 +558,7 @@
     gap: 40px; } }
 @media screen and (max-width: 320px) {
   .hello-block-btn {
-    gap: 15px; } }
+    gap: 10px; } }
 footer {
   display: flex;
   align-items: center;
