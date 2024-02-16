@@ -361,6 +361,18 @@
         .download-info .download-info-container .download-info-img-container .apk {
           width: 170px;
           height: 100px; } }
+      @media screen and (min-width: 834px) and (min-height: 1112px) {
+        .download-info .download-info-container .download-info-img-container .andr {
+          width: 150px;
+          height: 100px;
+          margin-right: 15px; }
+        .download-info .download-info-container .download-info-img-container .mac {
+          width: 140px;
+          height: 100px;
+          margin-right: 15px; }
+        .download-info .download-info-container .download-info-img-container .apk {
+          width: 140px;
+          height: 100px; } }
       @media screen and (max-width: 768px) {
         .download-info .download-info-container .download-info-img-container .andr {
           width: 130px;
@@ -417,6 +429,9 @@
       @media screen and (max-width: 1050px) {
         .download-info .download-info-container .download-info-hum-container .download-info-img {
           width: 250px; } }
+      @media screen and (min-width: 834px) and (min-height: 1112px) {
+        .download-info .download-info-container .download-info-hum-container .download-info-img {
+          width: 200px; } }
       @media screen and (max-width: 768px) {
         .download-info .download-info-container .download-info-hum-container .download-info-img {
           width: 200px; } }
@@ -431,11 +446,26 @@
   z-index: 100;
   right: 0;
   top: 0; }
+@media screen and (min-width: 1280px) and (min-height: 950px) {
+  .images-head .imageses-head-svg {
+    position: absolute;
+    width: 45%;
+    height: 80vh; } }
+@media screen and (min-width: 1280px) and (min-height: 800px) {
+  .images-head .imageses-head-svg {
+    position: absolute;
+    width: 44%;
+    height: 85vh; } }
 @media screen and (max-width: 1024px) {
   .images-head .imageses-head-svg {
     position: absolute;
-    width: 50%;
+    width: 45%;
     height: 95vh; } }
+@media screen and (min-width: 834px) and (min-height: 1112px) {
+  .images-head .imageses-head-svg {
+    position: absolute;
+    width: 54%;
+    height: 63vh; } }
 @media screen and (max-width: 768px) {
   .images-head .imageses-head-svg {
     position: absolute;
@@ -468,7 +498,7 @@
 @media screen and (min-width: 1024px) and (min-height: 1366px) {
   .images-head .imageses-head-svg {
     width: 45%;
-    height: 70vh; } }
+    height: 50vh; } }
 @media screen and (min-width: 1366px) and (min-height: 768px) {
   .images-head .imageses-head-svg {
     width: 45%;
@@ -500,6 +530,9 @@
       margin-top: 30px;
       font-size: 25px;
       font-weight: 400; }
+    @media screen and (min-width: 834px) and (min-height: 1112px) {
+      .hello-block .hello-block-container .hello-h1 {
+        width: 81%; } }
     @media screen and (max-width: 768px) {
       .hello-block .hello-block-container .hello-h1 {
         font-size: 29px;
@@ -524,10 +557,12 @@
         margin-top: 0; }
       .hello-block .hello-block-container .hello-span {
         font-size: 25px; } }
+  @media screen and (min-width: 834px) and (min-height: 1112px) {
+    .hello-block .hello-block-container {
+      width: 58%; } }
   @media screen and (max-width: 768px) {
     .hello-block .hello-block-container {
-      width: 30%;
-      height: 600px; } }
+      width: 30%; } }
   @media screen and (max-width: 540px) {
     .hello-block .hello-block-container {
       width: 90%;
@@ -559,6 +594,9 @@
   @media screen and (min-width: 1024px) and (min-height: 1366px) {
     .hello-block .mobile-img {
       height: 650px; } }
+  @media screen and (min-width: 834px) and (min-height: 1112px) {
+    .hello-block .mobile-img {
+      height: 480px; } }
   @media screen and (min-width: 1366px) and (min-height: 768px) {
     .hello-block .mobile-img {
       height: 600px;
@@ -632,6 +670,12 @@
   .hello-block-btn {
     width: auto;
     gap: 50px; } }
+@media screen and (min-width: 834px) and (min-height: 1112px) {
+  .hello-block-btn {
+    bottom: -250px; } }
+@media screen and (max-width: 768px) {
+  .hello-block-btn {
+    bottom: -300px; } }
 @media screen and (max-width: 540px) {
   .hello-block-btn {
     width: 90%;

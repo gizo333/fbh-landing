@@ -564,6 +564,25 @@
         }
       }
 
+      @media screen and (min-width: 834px) and (min-height: 1112px) {
+        .andr {
+          width: 150px;
+          height: 100px;
+          margin-right: 15px;
+        }
+
+        .mac {
+          width: 140px;
+          height: 100px;
+          margin-right: 15px;
+        }
+
+        .apk {
+          width: 140px;
+          height: 100px;
+        }
+      }
+
       @media screen and (max-width: 768px) {
         .andr {
           width: 130px;
@@ -652,6 +671,11 @@
           width: 250px;
         }
       }
+      @media screen and (min-width: 834px) and (min-height: 1112px) {
+        .download-info-img {
+          width: 200px;
+        }
+      }
 
       @media screen and (max-width: 768px) {
         .download-info-img {
@@ -680,11 +704,35 @@
   }
   // media for blu block
 
+  @media screen and (min-width: 1280px) and (min-height: 950px) {
+    .imageses-head-svg {
+      position: absolute;
+      width: 45%;
+      height: 80vh;
+    }
+  }
+
+  @media screen and (min-width: 1280px) and (min-height: 800px) {
+    .imageses-head-svg {
+      position: absolute;
+      width: 44%;
+      height: 85vh;
+    }
+  }
+
   @media screen and (max-width: 1024px) {
     .imageses-head-svg {
       position: absolute;
-      width: 50%;
+      width: 45%;
       height: 95vh;
+    }
+  }
+
+  @media screen and (min-width: 834px) and (min-height: 1112px) {
+    .imageses-head-svg {
+      position: absolute;
+      width: 54%;
+      height: 63vh;
     }
   }
 
@@ -738,7 +786,7 @@
   @media screen and (min-width: 1024px) and (min-height: 1366px) {
     .imageses-head-svg {
       width: 45%;
-      height: 70vh;
+      height: 50vh;
     }
   }
 
@@ -786,6 +834,12 @@
       font-weight: 400;
     }
 
+    @media screen and (min-width: 834px) and (min-height: 1112px) {
+      .hello-h1 {
+        width: 81%;
+      }
+    }
+
     @media screen and (max-width: 768px) {
       .hello-h1 {
         font-size: 29px;
@@ -827,10 +881,15 @@
     }
   }
 
+  @media screen and (min-width: 834px) and (min-height: 1112px) {
+    .hello-block-container {
+      width: 58%;
+    }
+  }
+
   @media screen and (max-width: 768px) {
     .hello-block-container {
       width: 30%;
-      height: 600px;
     }
   }
 
@@ -889,6 +948,12 @@
   @media screen and (min-width: 1024px) and (min-height: 1366px) {
     .mobile-img {
       height: 650px;
+    }
+  }
+
+  @media screen and (min-width: 834px) and (min-height: 1112px) {
+    .mobile-img {
+      height: 480px;
     }
   }
 
@@ -1002,6 +1067,18 @@
   .hello-block-btn {
     width: auto;
     gap: 50px;
+  }
+}
+
+@media screen and (min-width: 834px) and (min-height: 1112px) {
+  .hello-block-btn {
+    bottom: -250px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hello-block-btn {
+    bottom: -300px;
   }
 }
 
