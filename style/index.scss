@@ -842,6 +842,13 @@
       font-weight: 400;
     }
 
+    @media screen and (max-width: 936px) {
+      .hello-h1 {
+        font-size: 29px;
+        margin-top: 30px;
+      }
+    }
+
     @media screen and (min-width: 834px) and (min-height: 1112px) {
       .hello-h1 {
         width: 81%;
@@ -850,11 +857,11 @@
 
     @media screen and (max-width: 768px) {
       .hello-h1 {
-        font-size: 29px;
+        font-size: 24px;
         margin-top: 30px;
       }
       .hello-span {
-        font-size: 25px;
+        font-size: 20px;
       }
     }
 

@@ -535,15 +535,19 @@
       margin-top: 30px;
       font-size: 25px;
       font-weight: 400; }
+    @media screen and (max-width: 936px) {
+      .hello-block .hello-block-container .hello-h1 {
+        font-size: 29px;
+        margin-top: 30px; } }
     @media screen and (min-width: 834px) and (min-height: 1112px) {
       .hello-block .hello-block-container .hello-h1 {
         width: 81%; } }
     @media screen and (max-width: 768px) {
       .hello-block .hello-block-container .hello-h1 {
-        font-size: 29px;
+        font-size: 24px;
         margin-top: 30px; }
       .hello-block .hello-block-container .hello-span {
-        font-size: 25px; } }
+        font-size: 20px; } }
     @media screen and (max-width: 430px) {
       .hello-block .hello-block-container .hello-h1 {
         font-size: 29px;
