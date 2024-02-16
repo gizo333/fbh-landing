@@ -792,6 +792,14 @@
     }
   }
 
+  @media screen and (min-width: 800px) and (min-height: 1280px) {
+    .imageses-head-svg {
+      position: absolute;
+      width: 54%;
+      height: 63vh;
+    }
+  }
+
   @media screen and (max-width: 768px) {
     .imageses-head-svg {
       position: absolute;
@@ -857,6 +865,13 @@
     .imageses-head-svg {
       width: 40%;
       height: 99vh;
+    }
+  }
+
+  @media screen and (min-width: 2560px) and (min-height: 1080px) {
+    .imageses-head-svg {
+      width: 30%;
+      height: 98vh;
     }
   }
 }
@@ -1031,6 +1046,13 @@
     .mobile-img {
       height: 700px;
       margin-right: 100px;
+    }
+  }
+
+  @media screen and (min-width: 2560px) and (min-height: 1080px) {
+    .mobile-img {
+      height: 800px;
+      margin-right: -150px;
     }
   }
 }
