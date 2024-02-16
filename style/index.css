@@ -678,9 +678,6 @@
 @media screen and (min-width: 834px) and (min-height: 1112px) {
   .hello-block-btn {
     bottom: -250px; } }
-@media screen and (max-width: 768px) {
-  .hello-block-btn {
-    bottom: -300px; } }
 @media screen and (max-width: 540px) {
   .hello-block-btn {
     width: 90%;
