@@ -720,6 +720,14 @@
     }
   }
 
+  @media screen and (min-width: 1200px) and (min-height: 800px) {
+    .imageses-head-svg {
+      position: absolute;
+      width: 46%;
+      height: 90vh;
+    }
+  }
+
   @media screen and (max-width: 1024px) {
     .imageses-head-svg {
       position: absolute;
