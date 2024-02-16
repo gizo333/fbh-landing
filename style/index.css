@@ -14,6 +14,11 @@
       .body-head .head-main .head-logo .logo {
         width: 150px;
         height: 54px; }
+    @media screen and (max-width: 770px) {
+      .body-head .head-main .head-logo {
+        margin-left: 25px;
+        width: 150px;
+        height: 54px; } }
     @media screen and (max-width: 540px) {
       .body-head .head-main .head-logo {
         display: none; } }
@@ -156,11 +161,39 @@
   z-index: 1000; }
   .head-menu .head-menu-li .head-menu-li-a {
     color: white; }
+@media screen and (max-width: 1333px) {
+  .head-menu .head-menu-li {
+    margin-right: 60px;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 13%;
+    white-space: nowrap; } }
+@media screen and (max-width: 1199px) {
+  .head-menu .head-menu-li {
+    margin-right: 45px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 13%;
+    white-space: nowrap; } }
 @media screen and (max-width: 1024px) {
   .head-menu .head-menu-li {
     margin-right: 45px;
     font-weight: 500;
     font-size: 25px;
+    line-height: 13%;
+    white-space: nowrap; } }
+@media screen and (max-width: 934px) {
+  .head-menu .head-menu-li {
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 13%;
+    white-space: nowrap; } }
+@media screen and (max-width: 820px) {
+  .head-menu .head-menu-li {
+    margin-right: 25px;
+    font-weight: 500;
+    font-size: 23px;
     line-height: 13%;
     white-space: nowrap; } }
 @media screen and (max-width: 540px) {
@@ -679,6 +712,9 @@
   .hello-block-btn {
     width: auto;
     gap: 50px; } }
+@media screen and (max-width: 930px) {
+  .hello-block-btn {
+    bottom: -300px; } }
 @media screen and (min-width: 834px) and (min-height: 1112px) {
   .hello-block-btn {
     bottom: -250px; } }
@@ -688,21 +724,24 @@
 @media screen and (max-width: 540px) {
   .hello-block-btn {
     width: 90%;
-    gap: 50px; } }
+    gap: 50px;
+    bottom: -80px; } }
 @media screen and (max-width: 430px) {
   .hello-block-btn {
     gap: 50px; } }
 @media screen and (max-width: 415px) {
   .hello-block-btn {
     gap: 50px;
-    width: 380px; } }
+    width: 380px;
+    bottom: -110px; } }
 @media screen and (max-width: 375px) {
   .hello-block-btn {
     gap: 40px; } }
 @media screen and (max-width: 320px) {
   .hello-block-btn {
     gap: 10px;
-    width: 20px; } }
+    width: 20px;
+    bottom: -110px; } }
 footer {
   display: flex;
   align-items: center;

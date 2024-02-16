@@ -21,6 +21,14 @@
       }
     }
 
+    @media screen and (max-width: 770px) {
+      .head-logo {
+        margin-left: 25px;
+        width: 150px;
+        height: 54px;
+      }
+    }
+
     @media screen and (max-width: 540px) {
       .head-logo {
         display: none;
@@ -243,11 +251,51 @@
 
   //media for menu
 
+  @media screen and (max-width: 1333px) {
+    .head-menu-li {
+      margin-right: 60px;
+      font-weight: 500;
+      font-size: 26px;
+      line-height: 13%;
+      white-space: nowrap;
+    }
+  }
+
+  @media screen and (max-width: 1199px) {
+    .head-menu-li {
+      margin-right: 45px;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 13%;
+      white-space: nowrap;
+    }
+  }
+
   @media screen and (max-width: 1024px) {
     .head-menu-li {
       margin-right: 45px;
       font-weight: 500;
       font-size: 25px;
+      line-height: 13%;
+      white-space: nowrap;
+    }
+  }
+
+  @media screen and (max-width: 934px) {
+    .head-menu-li {
+      margin-right: 30px;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 13%;
+      white-space: nowrap;
+    }
+  }
+
+  @media screen and (max-width: 820px) {
+    .head-menu-li {
+      margin-right: 25px;
+      font-weight: 500;
+      font-size: 23px;
       line-height: 13%;
       white-space: nowrap;
     }
@@ -1085,6 +1133,12 @@
   }
 }
 
+@media screen and (max-width: 930px) {
+  .hello-block-btn {
+    bottom: -300px;
+  }
+}
+
 @media screen and (min-width: 834px) and (min-height: 1112px) {
   .hello-block-btn {
     bottom: -250px;
@@ -1101,6 +1155,7 @@
   .hello-block-btn {
     width: 90%;
     gap: 50px;
+    bottom: -80px;
   }
 }
 
@@ -1114,6 +1169,7 @@
   .hello-block-btn {
     gap: 50px;
     width: 380px;
+    bottom: -110px;
   }
 }
 
@@ -1127,6 +1183,7 @@
   .hello-block-btn {
     gap: 10px;
     width: 20px;
+    bottom: -110px;
   }
 }
 
