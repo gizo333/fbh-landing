@@ -170,10 +170,17 @@
         }
       }
 
+      @media screen and (max-width: 995px) {
+        .block-main-text {
+          font-size: 25px;
+          line-height: 24px;
+        }
+      }
+
       @media screen and (max-width: 835px) {
         .block-main-text {
-          font-size: 17px;
-          line-height: 25px;
+          font-size: 28px;
+          line-height: 27px;
         }
       }
 
@@ -181,6 +188,13 @@
         .block-main-text {
           font-size: 28px;
           line-height: 30px;
+        }
+      }
+
+      @media screen and (max-width: 631px) {
+        .block-main-text {
+          font-size: 25px;
+          line-height: 25px;
         }
       }
 
@@ -612,6 +626,25 @@
         }
       }
 
+      @media screen and (max-width: 900px) {
+        .andr {
+          width: 150px;
+          height: 100px;
+          margin-right: 15px;
+        }
+
+        .mac {
+          width: 140px;
+          height: 100px;
+          margin-right: 15px;
+        }
+
+        .apk {
+          width: 140px;
+          height: 100px;
+        }
+      }
+
       @media screen and (min-width: 834px) and (min-height: 1112px) {
         .andr {
           width: 150px;
@@ -725,13 +758,7 @@
         }
       }
 
-      @media screen and (max-width: 768px) {
-        .download-info-img {
-          width: 200px;
-        }
-      }
-
-      @media screen and (max-width: 650px) {
+      @media screen and (max-width: 799px) {
         .download-info-img {
           display: none;
         }

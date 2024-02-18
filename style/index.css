@@ -115,14 +115,22 @@
         .body-head .block-main .block-main-text-container .block-main-text {
           font-size: 26px;
           line-height: 30px; } }
+      @media screen and (max-width: 995px) {
+        .body-head .block-main .block-main-text-container .block-main-text {
+          font-size: 25px;
+          line-height: 24px; } }
       @media screen and (max-width: 835px) {
         .body-head .block-main .block-main-text-container .block-main-text {
-          font-size: 17px;
-          line-height: 25px; } }
+          font-size: 28px;
+          line-height: 27px; } }
       @media screen and (max-width: 768px) {
         .body-head .block-main .block-main-text-container .block-main-text {
           font-size: 28px;
           line-height: 30px; } }
+      @media screen and (max-width: 631px) {
+        .body-head .block-main .block-main-text-container .block-main-text {
+          font-size: 25px;
+          line-height: 25px; } }
       @media screen and (max-width: 540px) {
         .body-head .block-main .block-main-text-container .block-main-text {
           font-size: 24px;
@@ -394,6 +402,18 @@
         .download-info .download-info-container .download-info-img-container .apk {
           width: 170px;
           height: 100px; } }
+      @media screen and (max-width: 900px) {
+        .download-info .download-info-container .download-info-img-container .andr {
+          width: 150px;
+          height: 100px;
+          margin-right: 15px; }
+        .download-info .download-info-container .download-info-img-container .mac {
+          width: 140px;
+          height: 100px;
+          margin-right: 15px; }
+        .download-info .download-info-container .download-info-img-container .apk {
+          width: 140px;
+          height: 100px; } }
       @media screen and (min-width: 834px) and (min-height: 1112px) {
         .download-info .download-info-container .download-info-img-container .andr {
           width: 150px;
@@ -465,10 +485,7 @@
       @media screen and (min-width: 834px) and (min-height: 1112px) {
         .download-info .download-info-container .download-info-hum-container .download-info-img {
           width: 200px; } }
-      @media screen and (max-width: 768px) {
-        .download-info .download-info-container .download-info-hum-container .download-info-img {
-          width: 200px; } }
-      @media screen and (max-width: 650px) {
+      @media screen and (max-width: 799px) {
         .download-info .download-info-container .download-info-hum-container .download-info-img {
           display: none; } }
 
